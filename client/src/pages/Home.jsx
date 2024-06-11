@@ -11,7 +11,7 @@ export const Home =() => {
             <section>
                 <div className="container grid grid-two-cols">
                     <div className="hero-content">
-                        <p>Welcome, to Our website </p>
+                        <p>Welcome, {user.userData.username} to Our website </p>
                             <h1>We are learning MERN</h1>
                             <p>
                             Welcome to our MERN Website, your gateway to seamless interaction and secure access! 
