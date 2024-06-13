@@ -13,7 +13,7 @@ const adminRoute = require("./router/admin-router")
 // handling cors
 
 const corsOption = {
-    origin: "http://localhost:5173",
+    origin: VITE_APP_URI_API,
     methods : "GET , POST , PUT , DELETE , PATCH ,HEAD",
     credentials : true,
 
